@@ -44,7 +44,7 @@
 		B58BA9C62A94BEE400186CA2 /* Toggle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C52A94BEE400186CA2 /* Toggle1.swift */; };
 		B58BA9EB2A974E5700186CA2 /* ShapesIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9EA2A974E5700186CA2 /* ShapesIntro.swift */; };
 		B58BA9ED2A97583500186CA2 /* ShapeOutlines_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9EC2A97583500186CA2 /* ShapeOutlines_Strokes.swift */; };
-		B58BA9EF2A975D3E00186CA2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9EE2A975D3E00186CA2 /* SwiftUIView.swift */; };
+		B58BA9EF2A975D3E00186CA2 /* ShapesWithOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9EE2A975D3E00186CA2 /* ShapesWithOtherViews.swift */; };
 		B5ADF32E2A6BC738009AEC76 /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF32D2A6BC738009AEC76 /* TabView1.swift */; };
 		B5ADF3302A6BCD34009AEC76 /* TabViewPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF32F2A6BCD34009AEC76 /* TabViewPaging.swift */; };
 		B5ADF3322A6BCE68009AEC76 /* Text1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3312A6BCE68009AEC76 /* Text1.swift */; };
@@ -93,13 +93,13 @@
 		B58BA9C52A94BEE400186CA2 /* Toggle1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle1.swift; sourceTree = "<group>"; };
 		B58BA9EA2A974E5700186CA2 /* ShapesIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesIntro.swift; sourceTree = "<group>"; };
 		B58BA9EC2A97583500186CA2 /* ShapeOutlines_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeOutlines_Strokes.swift; sourceTree = "<group>"; };
-		B58BA9EE2A975D3E00186CA2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B58BA9EE2A975D3E00186CA2 /* ShapesWithOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesWithOtherViews.swift; sourceTree = "<group>"; };
 		B5ADF32D2A6BC738009AEC76 /* TabView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
 		B5ADF32F2A6BCD34009AEC76 /* TabViewPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPaging.swift; sourceTree = "<group>"; };
 		B5ADF3312A6BCE68009AEC76 /* Text1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text1.swift; sourceTree = "<group>"; };
 		B5ADF3332A77C8AD009AEC76 /* TextWithCustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithCustomFonts.swift; sourceTree = "<group>"; };
 		B5ADF3362A77CA2E009AEC76 /* Nightcall.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nightcall.ttf; sourceTree = "<group>"; };
-		B5ADF3382A77CA54009AEC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B5ADF3382A77CA54009AEC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5ADF3392A77CC51009AEC76 /* TextEditor1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor1.swift; sourceTree = "<group>"; };
 		B5ADF33B2A7814FF009AEC76 /* TextField1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,10 +136,10 @@
 			isa = PBXGroup;
 			children = (
 				B58BA9E92A974DFD00186CA2 /* Shapes and other views  */,
-				B5ADF3382A77CA54009AEC76 /* Info.plist */,
 				B5ADF3352A77CA16009AEC76 /* Cutstom Fonts */,
 				B5743E1F2A540BAD00BCFCEF /* ControlViews */,
 				B508EE442A4D9A4F006B7948 /* Layout Views */,
+				B5ADF3382A77CA54009AEC76 /* Info.plist */,
 				B508EE3A2A4D9A40006B7948 /* Assets.xcassets */,
 				B508EE3C2A4D9A40006B7948 /* Preview Content */,
 			);
@@ -211,7 +211,7 @@
 			children = (
 				B58BA9EA2A974E5700186CA2 /* ShapesIntro.swift */,
 				B58BA9EC2A97583500186CA2 /* ShapeOutlines_Strokes.swift */,
-				B58BA9EE2A975D3E00186CA2 /* SwiftUIView.swift */,
+				B58BA9EE2A975D3E00186CA2 /* ShapesWithOtherViews.swift */,
 			);
 			path = "Shapes and other views ";
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 				B5743E352A570A8000BCFCEF /* Link1.swift in Sources */,
 				B58BA9C62A94BEE400186CA2 /* Toggle1.swift in Sources */,
 				B5743E692A5C988900BCFCEF /* Picker1.swift in Sources */,
-				B58BA9EF2A975D3E00186CA2 /* SwiftUIView.swift in Sources */,
+				B58BA9EF2A975D3E00186CA2 /* ShapesWithOtherViews.swift in Sources */,
 				B508EE4A2A4DD9F0006B7948 /* LazyHStack1.swift in Sources */,
 				B508EE4E2A4DE206006B7948 /* Spacer!.swift in Sources */,
 				B5743E252A5436AB00BCFCEF /* DatePicker1.swift in Sources */,
