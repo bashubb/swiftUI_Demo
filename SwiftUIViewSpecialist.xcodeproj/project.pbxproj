@@ -49,6 +49,7 @@
 		B58BA9F32A976D4200186CA2 /* Divider1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9F22A976D4200186CA2 /* Divider1.swift */; };
 		B58BA9F52A976E4200186CA2 /* Group1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9F42A976E4200186CA2 /* Group1.swift */; };
 		B58BA9F72A976F6E00186CA2 /* Image1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9F62A976F6E00186CA2 /* Image1.swift */; };
+		B58BA9F92A98C34F00186CA2 /* Image2_Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9F82A98C34F00186CA2 /* Image2_Symbols.swift */; };
 		B5ADF32E2A6BC738009AEC76 /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF32D2A6BC738009AEC76 /* TabView1.swift */; };
 		B5ADF3302A6BCD34009AEC76 /* TabViewPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF32F2A6BCD34009AEC76 /* TabViewPaging.swift */; };
 		B5ADF3322A6BCE68009AEC76 /* Text1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3312A6BCE68009AEC76 /* Text1.swift */; };
@@ -102,6 +103,7 @@
 		B58BA9F22A976D4200186CA2 /* Divider1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider1.swift; sourceTree = "<group>"; };
 		B58BA9F42A976E4200186CA2 /* Group1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group1.swift; sourceTree = "<group>"; };
 		B58BA9F62A976F6E00186CA2 /* Image1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image1.swift; sourceTree = "<group>"; };
+		B58BA9F82A98C34F00186CA2 /* Image2_Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image2_Symbols.swift; sourceTree = "<group>"; };
 		B5ADF32D2A6BC738009AEC76 /* TabView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
 		B5ADF32F2A6BCD34009AEC76 /* TabViewPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPaging.swift; sourceTree = "<group>"; };
 		B5ADF3312A6BCE68009AEC76 /* Text1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text1.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				B58BA9F22A976D4200186CA2 /* Divider1.swift */,
 				B58BA9F42A976E4200186CA2 /* Group1.swift */,
 				B58BA9F62A976F6E00186CA2 /* Image1.swift */,
+				B58BA9F82A98C34F00186CA2 /* Image2_Symbols.swift */,
 			);
 			path = "Shapes and other views ";
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				B5ADF32E2A6BC738009AEC76 /* TabView1.swift in Sources */,
 				B5ADF33A2A77CC51009AEC76 /* TextEditor1.swift in Sources */,
 				B5743E332A57079200BCFCEF /* Label1.swift in Sources */,
+				B58BA9F92A98C34F00186CA2 /* Image2_Symbols.swift in Sources */,
 				B5743E6B2A5C9B9300BCFCEF /* ProgressView1.swift in Sources */,
 				B5743E952A5EBC9500BCFCEF /* SecureField1.swift in Sources */,
 				B5ADF3342A77C8AD009AEC76 /* TextWithCustomFonts.swift in Sources */,
