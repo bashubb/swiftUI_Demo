@@ -50,6 +50,7 @@
 		B58BA9F52A976E4200186CA2 /* Group1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9F42A976E4200186CA2 /* Group1.swift */; };
 		B58BA9F72A976F6E00186CA2 /* Image1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9F62A976F6E00186CA2 /* Image1.swift */; };
 		B58BA9F92A98C34F00186CA2 /* Image2_Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9F82A98C34F00186CA2 /* Image2_Symbols.swift */; };
+		B58BA9FB2A98C60C00186CA2 /* Path1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9FA2A98C60C00186CA2 /* Path1.swift */; };
 		B5ADF32E2A6BC738009AEC76 /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF32D2A6BC738009AEC76 /* TabView1.swift */; };
 		B5ADF3302A6BCD34009AEC76 /* TabViewPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF32F2A6BCD34009AEC76 /* TabViewPaging.swift */; };
 		B5ADF3322A6BCE68009AEC76 /* Text1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3312A6BCE68009AEC76 /* Text1.swift */; };
@@ -104,6 +105,7 @@
 		B58BA9F42A976E4200186CA2 /* Group1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group1.swift; sourceTree = "<group>"; };
 		B58BA9F62A976F6E00186CA2 /* Image1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image1.swift; sourceTree = "<group>"; };
 		B58BA9F82A98C34F00186CA2 /* Image2_Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image2_Symbols.swift; sourceTree = "<group>"; };
+		B58BA9FA2A98C60C00186CA2 /* Path1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path1.swift; sourceTree = "<group>"; };
 		B5ADF32D2A6BC738009AEC76 /* TabView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
 		B5ADF32F2A6BCD34009AEC76 /* TabViewPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPaging.swift; sourceTree = "<group>"; };
 		B5ADF3312A6BCE68009AEC76 /* Text1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text1.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				B58BA9F42A976E4200186CA2 /* Group1.swift */,
 				B58BA9F62A976F6E00186CA2 /* Image1.swift */,
 				B58BA9F82A98C34F00186CA2 /* Image2_Symbols.swift */,
+				B58BA9FA2A98C60C00186CA2 /* Path1.swift */,
 			);
 			path = "Shapes and other views ";
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				B5743EFA2A61A08900BCFCEF /* SegmentedControl1.swift in Sources */,
 				B5743E182A504F7600BCFCEF /* LazyVgrid.swift in Sources */,
 				B5743E312A57064D00BCFCEF /* GroupBox1.swift in Sources */,
+				B58BA9FB2A98C60C00186CA2 /* Path1.swift in Sources */,
 				B508EE462A4D9D6A006B7948 /* LazyVStack1.swift in Sources */,
 				B5743E162A50425F00BCFCEF /* LazyHgrid1.swift in Sources */,
 				B5743E292A543B6900BCFCEF /* Form1.swift in Sources */,
