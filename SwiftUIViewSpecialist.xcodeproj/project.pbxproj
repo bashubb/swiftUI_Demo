@@ -16,6 +16,7 @@
 		B508EE4A2A4DD9F0006B7948 /* LazyHStack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508EE492A4DD9F0006B7948 /* LazyHStack1.swift */; };
 		B508EE4C2A4DE042006B7948 /* ZStack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508EE4B2A4DE042006B7948 /* ZStack1.swift */; };
 		B508EE4E2A4DE206006B7948 /* Spacer!.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508EE4D2A4DE206006B7948 /* Spacer!.swift */; };
+		B5411CC02AA71783003C18A2 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CBF2AA71783003C18A2 /* Wave.swift */; };
 		B5743E142A4F72DD00BCFCEF /* GeometryReader1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743E132A4F72DD00BCFCEF /* GeometryReader1.swift */; };
 		B5743E162A50425F00BCFCEF /* LazyHgrid1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743E152A50425F00BCFCEF /* LazyHgrid1.swift */; };
 		B5743E182A504F7600BCFCEF /* LazyVgrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743E172A504F7600BCFCEF /* LazyVgrid.swift */; };
@@ -72,6 +73,7 @@
 		B508EE492A4DD9F0006B7948 /* LazyHStack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack1.swift; sourceTree = "<group>"; };
 		B508EE4B2A4DE042006B7948 /* ZStack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack1.swift; sourceTree = "<group>"; };
 		B508EE4D2A4DE206006B7948 /* Spacer!.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spacer!.swift"; sourceTree = "<group>"; };
+		B5411CBF2AA71783003C18A2 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		B5743E132A4F72DD00BCFCEF /* GeometryReader1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader1.swift; sourceTree = "<group>"; };
 		B5743E152A50425F00BCFCEF /* LazyHgrid1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHgrid1.swift; sourceTree = "<group>"; };
 		B5743E172A504F7600BCFCEF /* LazyVgrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVgrid.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				B58BA9FF2A98C9B100186CA2 /* CurvedSideRectangle.swift */,
+				B5411CBF2AA71783003C18A2 /* Wave.swift */,
 			);
 			path = "Creating custom shapes";
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				B5743EFE2A61A34400BCFCEF /* Slider1.swift in Sources */,
 				B508EE372A4D9A3F006B7948 /* SwiftUIViewSpecialistApp.swift in Sources */,
 				B5743E232A54348100BCFCEF /* ColorPicker1.swift in Sources */,
+				B5411CC02AA71783003C18A2 /* Wave.swift in Sources */,
 				B5743E352A570A8000BCFCEF /* Link1.swift in Sources */,
 				B58BA9F72A976F6E00186CA2 /* Image1.swift in Sources */,
 				B58BAA002A98C9B100186CA2 /* CurvedSideRectangle.swift in Sources */,
