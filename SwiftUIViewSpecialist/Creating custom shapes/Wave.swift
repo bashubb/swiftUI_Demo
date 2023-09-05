@@ -13,14 +13,17 @@ struct Wave: Shape {
         path.move(to: CGPoint.zero)
         path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY))
         path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
-        path.addCurve(to: CGPoint(x: rect.minX, y: rect.maxY), control1: CGPoint(x: rect.midX + 20, y: rect.maxY - 50), control2: CGPoint(x: rect.midX - 20, y: rect.maxY + 50))
+        path.addCurve(to: CGPoint(x: rect.minX, y: rect.maxY),                  control1: CGPoint(x: rect.midX * 1.25,
+                                        y:rect.maxY * 0.7),
+                      control2: CGPoint(x: rect.midX * 0.75,
+                                        y: rect.maxY * 1.3))
+        path.closeSubpath()
         
         return path
     }
-    
-    
-    
 }
+
+
 
 struct ExampleView: View {
     var body: some View {

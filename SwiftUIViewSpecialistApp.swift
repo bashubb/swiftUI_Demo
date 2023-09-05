@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIViewSpecialistApp: App {
     var body: some Scene {
         WindowGroup {
-            TextEditor1()
+            TriangularShape()
         }
     }
 }

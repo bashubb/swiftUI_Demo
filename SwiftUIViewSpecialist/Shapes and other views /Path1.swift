@@ -13,14 +13,14 @@ struct Path1: View {
             VStack {
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             }
-            Triangle()
+            Triangle1()
             .fill(Color.green)
             .padding()
         }
     }
 }
 
-struct Triangle: Shape {
+struct Triangle1: Shape {
     func path(in rect: CGRect) -> Path {
         Path { path in
             path.move(to: CGPoint(x: 0, y: 0))
@@ -35,7 +35,7 @@ struct Path1_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             Path1()
-            Triangle()
+            Triangle1()
         }
     }
 }
