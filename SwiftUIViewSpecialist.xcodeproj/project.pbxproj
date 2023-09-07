@@ -16,6 +16,7 @@
 		B508EE4A2A4DD9F0006B7948 /* LazyHStack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508EE492A4DD9F0006B7948 /* LazyHStack1.swift */; };
 		B508EE4C2A4DE042006B7948 /* ZStack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508EE4B2A4DE042006B7948 /* ZStack1.swift */; };
 		B508EE4E2A4DE206006B7948 /* Spacer!.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508EE4D2A4DE206006B7948 /* Spacer!.swift */; };
+		B529243D2AA9FC97006BC31D /* AngularGradient1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529243C2AA9FC97006BC31D /* AngularGradient1.swift */; };
 		B5411CC02AA71783003C18A2 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CBF2AA71783003C18A2 /* Wave.swift */; };
 		B5411CC62AA72A2D003C18A2 /* TriangularShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CC52AA72A2D003C18A2 /* TriangularShape.swift */; };
 		B5743E142A4F72DD00BCFCEF /* GeometryReader1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743E132A4F72DD00BCFCEF /* GeometryReader1.swift */; };
@@ -74,6 +75,7 @@
 		B508EE492A4DD9F0006B7948 /* LazyHStack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack1.swift; sourceTree = "<group>"; };
 		B508EE4B2A4DE042006B7948 /* ZStack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack1.swift; sourceTree = "<group>"; };
 		B508EE4D2A4DE206006B7948 /* Spacer!.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spacer!.swift"; sourceTree = "<group>"; };
+		B529243C2AA9FC97006BC31D /* AngularGradient1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient1.swift; sourceTree = "<group>"; };
 		B5411CBF2AA71783003C18A2 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		B5411CC52AA72A2D003C18A2 /* TriangularShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularShape.swift; sourceTree = "<group>"; };
 		B5743E132A4F72DD00BCFCEF /* GeometryReader1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader1.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		B508EE352A4D9A3F006B7948 /* SwiftUIViewSpecialist */ = {
 			isa = PBXGroup;
 			children = (
+				B529243B2AA9FC65006BC31D /* UI Design with Gradients and Colors */,
 				B58BA9FE2A98C98A00186CA2 /* Creating custom shapes */,
 				B58BA9E92A974DFD00186CA2 /* Shapes and other views  */,
 				B5ADF3352A77CA16009AEC76 /* Cutstom Fonts */,
@@ -188,6 +191,14 @@
 				B5743E192A51773200BCFCEF /* ScrollViewReader1.swift */,
 			);
 			path = "Layout Views";
+			sourceTree = "<group>";
+		};
+		B529243B2AA9FC65006BC31D /* UI Design with Gradients and Colors */ = {
+			isa = PBXGroup;
+			children = (
+				B529243C2AA9FC97006BC31D /* AngularGradient1.swift */,
+			);
+			path = "UI Design with Gradients and Colors";
 			sourceTree = "<group>";
 		};
 		B5743E1F2A540BAD00BCFCEF /* ControlViews */ = {
@@ -368,6 +379,7 @@
 				B5743E6B2A5C9B9300BCFCEF /* ProgressView1.swift in Sources */,
 				B5743E952A5EBC9500BCFCEF /* SecureField1.swift in Sources */,
 				B5ADF3342A77C8AD009AEC76 /* TextWithCustomFonts.swift in Sources */,
+				B529243D2AA9FC97006BC31D /* AngularGradient1.swift in Sources */,
 				B5ADF33C2A7814FF009AEC76 /* TextField1.swift in Sources */,
 				B5ADF3302A6BCD34009AEC76 /* TabViewPaging.swift in Sources */,
 				B5743E1A2A51773200BCFCEF /* ScrollViewReader1.swift in Sources */,
